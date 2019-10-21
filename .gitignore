@@ -1,0 +1,39 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+**/sample/xml
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Angular ###
+## Copied from https://github.com/angular/angular/blob/master/.gitignore ##
+/dist/
+bazel-*
+e2e_test.*
+node_modules/
+yarn.lock
+package-lock.json
+bower_components
+tools/gulp-tasks/cldr/cldr-data/
+## For frontend-maven-plugin ##
+node
+out-tsc
